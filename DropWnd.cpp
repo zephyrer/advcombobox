@@ -499,7 +499,7 @@ void CDropWnd::OnShowWindow(BOOL bShow, UINT nStatus)
 }
 
 
-void CDropWnd::OnActivateApp(BOOL bActive, HTASK hTask) 
+void CDropWnd::OnActivateApp(BOOL bActive, DWORD hTask) 
 {
 	CWnd::OnActivateApp(bActive, hTask);
 	

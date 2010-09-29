@@ -112,7 +112,7 @@ protected:
 	afx_msg void OnPaint();
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
 	afx_msg void OnShowWindow(BOOL bShow, UINT nStatus);
-	afx_msg void OnActivateApp(BOOL bActive, HTASK hTask);
+	afx_msg void OnActivateApp(BOOL bActive, DWORD hTask);
 	//}}AFX_MSG
 	afx_msg LONG OnSetCapture( WPARAM wParam, LPARAM lParam );
 	afx_msg LONG OnReleaseCapture( WPARAM wParam, LPARAM lParam );
