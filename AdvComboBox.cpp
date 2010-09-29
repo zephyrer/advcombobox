@@ -287,6 +287,7 @@ void CAdvComboBox::LoadString( UINT nStringID )
 		token = strtok( NULL, seps );
 	}
 
+	delete [] szTok;
 
 	//
 	// Add item to list
